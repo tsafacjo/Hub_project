@@ -1,0 +1,58 @@
+
+
+HARDWARE{
+
+
+	
+	Cluster cluster1= Cluster(3,'3*4.4',5);
+
+	Cluster cluster2= Cluster(2,'3*4.4',5);
+
+	Computer pc1= Computer(2, 34.3) ;
+
+
+}
+
+
+
+
+NETWORK{
+
+	Network network1=Network(400,52);
+
+	Network network2=Network(1400,52);
+
+
+}
+
+
+SERVICE{
+
+
+  	Service serviceStockage= Service("stockage",124);
+  	Service serviceStockage2= Service("calcul",124);
+
+}
+
+
+CONFIG{
+
+
+
+	cluster1.connect(network1) ;
+	cluster2.connect(network2) ;
+
+
+}
+
+
+
+PROCESSING{
+
+		
+		
+		
+
+
+
+}
