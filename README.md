@@ -1,4 +1,3 @@
 # Hub
 
-Hub est un langage de programmation orienté objet permettant de générer des architectures distribuées optimales pour des besoins spécifiques (calcul, stockage, et sur le long terme d’évaluer les performances d’une architecture de calcul distribué.
-Cependant, faute de temps nous nous sommes contentés de concevoir un langage de description d’infrastructure distribuée. Ainsi notre compilateur prend en entrée un code source écrit en HUB et génère en sortie un rendu visuel de l’infrastructure distribuée au format svg.
+Hub is an object-oriented programming language for generating optimal distributed architectures for specific needs (computing, storage), and for evaluating the long-term performance of a distributed computing architecture. However, due to time constraints, we were content to design a language for describing distributed infrastructures. Our compiler takes as input a source code written in HUB and generates as output a visual rendering of the distributed infrastructure in svg format.
